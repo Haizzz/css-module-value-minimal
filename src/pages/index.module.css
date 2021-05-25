@@ -1,0 +1,5 @@
+@value pumpkin from './colors.module.css'
+
+.divTest {
+  background-color: pumpkin;
+}
