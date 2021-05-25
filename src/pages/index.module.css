@@ -1,8 +1,13 @@
 @value colorExternal from './colors.module.css'
+@import './colors.module.css'
 @value colorInternal: red;
 
 .divExternal {
   background-color: colorExternal;
+}
+
+.divExternalImport {
+  background-color: colorExternal2;
 }
 
 .divInternal {
