@@ -1,5 +1,10 @@
-@value pumpkin from './colors.module.css'
+@value colorExternal from './colors.module.css'
+@value colorInternal: red;
 
-.divTest {
-  background-color: pumpkin;
+.divExternal {
+  background-color: colorExternal;
+}
+
+.divInternal {
+  background-color: colorInternal;
 }
